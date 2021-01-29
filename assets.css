@@ -34,18 +34,40 @@ li:before{
     top: -2px;
     left: 0px;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    width: 5%;
+    height: 5%;
+    border-top: 4px solid #fff;
+    border-left:4px solid #fff;
     transition: 1s; 
-    transform: scaleX(0);
+    width: 1%;
     opacity: 0;
 }
 li:hover::before{
-    transform: scaleX(1);
+    width: 95%;
+    height: 95%;
     opacity: 1;
+    
+}
+li::after{
+    content:'' ;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    border-bottom: 4px solid #fff;
+    border-right:4px solid #fff;
+    transition: 1s; 
+    width: 1%;
+    opacity: 0;
+}
+li:hover::after{
+    width: 95%;
+    height: 95%;
+    opacity: 1;
+    
 }
 a{
     text-decoration:none; 
 }
+
