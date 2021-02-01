@@ -151,4 +151,10 @@ a{
         background-color: brown;
         width: 70%;
     }
+    .menu{
+        margin-top: 10%;}
+    .menu.open{
+        clip-path: circle(400px at 10% -90%);
+        -webkit-clip-path: circle(400px at 10% -90%);
+    }
 }
