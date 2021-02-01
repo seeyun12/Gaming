@@ -152,9 +152,9 @@ a{
         width: 70%;
     }
     .menu{
-        margin-top: 15%;}
+        margin-top: 20%;}
     .menu.open{
-        clip-path: circle(800px at 10% -90%);
-        -webkit-clip-path: circle(800px at 10% -90%);
+        clip-path: circle(480px at 10% -90%);
+        -webkit-clip-path: circle(480px at 10% -90%);
     }
 }
